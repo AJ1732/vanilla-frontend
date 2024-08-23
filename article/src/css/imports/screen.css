@@ -59,8 +59,8 @@ article {
   flex-direction: column;
   gap: 0.625rem;
 
-  animation: appear 500ms var(--ease-out-quad);
-  transform-origin: left;
+  animation: appear 700ms var(--ease-out-quad);
+  transform-origin: left bottom;
 }
 
 .cta {
