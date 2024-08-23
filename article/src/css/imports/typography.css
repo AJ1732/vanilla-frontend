@@ -1,0 +1,21 @@
+.font-league {
+  font-family: "League Spartan", sans-serif;
+}
+
+.font-pjs {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+h3 {
+  color: var(--black);
+  font-size: 1.625rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+p {
+  color: var(--grey);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.625rem;
+}

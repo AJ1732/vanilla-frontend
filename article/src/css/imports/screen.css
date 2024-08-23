@@ -1,0 +1,132 @@
+body {
+  width: 100%;
+  height: fit-content;
+  max-width: 23.4375rem;
+  /* min-height: 50.75rem; */
+
+  margin: 1rem auto;
+  padding: 1rem 1.25rem;
+  background-color: var(--white);
+  border-radius: 0.75rem;
+
+  display: grid;
+  gap: 2rem;
+  grid-template-rows: repeat(3, max-content);
+}
+
+main {
+  font-size: 1.625rem;
+  display: grid;
+  gap: 1.25rem;
+}
+
+header {
+  position: relative;
+}
+
+header h2 {
+  padding-block: 0.625rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  text-align: center;
+  animation: appear 500ms var(--ease-out-quad);
+  transform-origin: bottom;
+}
+
+header nav button {
+  position: absolute;
+  top: -0.05rem;
+
+  padding: 0.75rem;
+  background-color: transparent;
+
+  border: 1px solid #eff0fd;
+  border-radius: 6.25rem;
+  transition: background-color 200ms var(--ease-out-quad);
+}
+
+header nav button:hover {
+  background-color: #eff0fd;
+}
+
+header nav button:active {
+  scale: 0.98;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+
+  animation: appear 500ms var(--ease-out-quad);
+  transform-origin: left;
+}
+
+.cta {
+  height: 9.875rem;
+  width: 20.9375rem;
+
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-shrink: 0;
+  padding: 1.5rem 2.5rem;
+
+  background-color: var(--primary);
+  border-radius: 1.625rem;
+
+  animation: appear 500ms var(--ease-out-quad);
+  transform-origin: bottom;
+}
+
+.cta > div {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+
+.cta > div > p {
+  color: var(--black);
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.watch-now {
+  display: flex;
+  gap: 0.625rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch-now figure img {
+  width: 1.875rem;
+  height: 1.875rem;
+}
+
+.watch-now a {
+  color: var(--secondary);
+  font-size: 0.75rem;
+  font-weight: 500;
+  font-family: Poppins, sans-serif;
+  line-height: 0.75rem;
+  cursor: pointer;
+}
+
+.watch-now a:hover {
+  text-decoration: underline;
+}
+
+.cycle img {
+  min-width: 5.02069rem;
+}
+
+footer {
+  background-color: var(--primary);
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1rem;
+}

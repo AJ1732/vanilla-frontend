@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* UNIVERSAL STYLES */
+@import "./imports/reset.css";
+@import "./imports/typography.css";
+@import "./imports/animation.css";
+@import "./imports/screen.css";
